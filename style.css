@@ -257,3 +257,113 @@ main .one a:hover{
     padding: 10px;
     border-left: 5px solid black;
 }
+
+/* MENUSERIE*/
+
+
+.menuserie{
+    width: 50%;
+    margin: 70px auto;
+    display: flex;
+    font-size: 20px;
+    line-height: 1.5em;
+
+}
+
+
+.menuserie .menuserie_1{
+    width: 50%;
+    height: 400px;
+    margin-right: 100px;
+} 
+
+.menuserie .menuserie_1 h1{
+   color:rgb(40, 40, 233); 
+   font-size: 30px;
+   margin-bottom: 20px;
+    
+} 
+
+.menuserie .menuserie_1 p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.menuserie .menuserie_1 .menp{
+    margin-left: 20px;
+    
+}
+
+.menuserie .menuserie_1 .ptc {
+    width: 1.5%;
+    background-color: rgb(233, 42, 169);
+    height: 5px;
+    display: inline-block;
+    vertical-align: top; /* Pour aligner verticalement les éléments */
+    margin-top: 15px;
+
+}
+
+.menuserie .menuserie_2{
+    width:50%;
+    overflow: hidden; /* Pour s'assurer que l'image ne dépasse pas du conteneur */
+    
+}
+
+
+
+
+.menuserie .menuserie_2 img{
+    width: 100%;
+    height: 370px;
+    object-fit: cover; /* Pour que l'image remplisse entièrement le conteneur sans déformation */
+    object-position: center; /* Pour centrer l'image dans le conteneur */
+}
+
+span{
+    color:rgb(233, 42, 169) ;
+    font-weight: bold;
+
+}
+
+.remp{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.remp .remp_1 p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.contact{
+    width: 50%;
+    margin: 80px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact .a{
+    margin-bottom: 100px;
+
+}
+
+.contact .a a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    width: 30%;
+    background-color: blue;
+    font-weight: bold;
+}
+
+.contact .a a:hover{
+    background-color: white;
+    border: 1px solid blue;
+    font-weight: bold;
+    color: blue;
+}
+
